@@ -1,0 +1,34 @@
+@media only screen and (max-width:500px){
+    header{
+        border: 2px solid blue;
+        height: 350px;
+        width: 350px;
+        margin-left: 3px;
+        margin-top: 5px;
+    }
+    nav{
+        /* border: 2px solid blue; */
+        height: 350px;
+        width: 488px;
+    }
+    header #navigate-bar{
+        /* border: 2px solid blue; */
+        height: 298px;
+        width: 435px;
+    }
+    header #navigate-bar ul{
+        /* border: 2px solid blue;  */
+        height: 300px;
+        width:425px;
+        display: flex;
+        flex-direction: column;
+    }
+    header #navigate-bar ul li{
+        /* border: 2px solid blue; */
+        width: 150px;
+        text-align: center;
+        margin: auto;
+        font-size: 28px;
+        cursor: pointer;
+    }
+}
